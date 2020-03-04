@@ -1,2 +1,9 @@
 C:\Users\WIN10\source\repos\solution2\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
 C:\Users\WIN10\source\repos\solution2\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\WIN10\source\repos\solution2\DAL\bin\Debug\DAL.dll
+C:\Users\WIN10\source\repos\solution2\DAL\bin\Debug\DAL.pdb
+C:\Users\WIN10\source\repos\solution2\DAL\bin\Debug\BEL.dll
+C:\Users\WIN10\source\repos\solution2\DAL\bin\Debug\BEL.pdb
+C:\Users\WIN10\source\repos\solution2\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\WIN10\source\repos\solution2\DAL\obj\Debug\DAL.dll
+C:\Users\WIN10\source\repos\solution2\DAL\obj\Debug\DAL.pdb

@@ -50,24 +50,24 @@ namespace Winforms
         private void btnOU_Click(object sender, EventArgs e)
         {
             palbtn.Top = btnOU.Top;
-          //FRM_Outillage fr = new FRM_Outillage();
-           // fr.ShowDialog();
+          FRM_Outillage fr = new FRM_Outillage();
+           fr.ShowDialog();
             this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             palbtn.Top = btnMA.Top;
-            // fr = new FRM_Machine();
-           // fr.ShowDialog();
+            FRM_Machine fr = new FRM_Machine();
+            fr.ShowDialog();
             this.Close();
         }
 
         private void btnPF_Click(object sender, EventArgs e)
         {
             palbtn.Top = btnPF.Top;
-            //FRM_PF fr = new FRM_PF();
-           // fr.ShowDialog();
+            FRM_PF fr = new FRM_PF();
+            fr.ShowDialog();
             this.Close();
         }
 

@@ -18,7 +18,8 @@ namespace DAL
 
         public static void Connect()
         {
-            cn = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\WIN10\Desktop\PFA");
+            string cnstr = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\WIN10\\source\repos\\solution2\\gestion de Stock.mdb";
+            cn = new OleDbConnection(cnstr);
             cn.Open();
         }
 
