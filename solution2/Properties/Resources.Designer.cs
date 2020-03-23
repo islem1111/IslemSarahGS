@@ -83,6 +83,16 @@ namespace solution2.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images___ {
+            get {
+                object obj = ResourceManager.GetObject("images ..", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images__2_ {
             get {
                 object obj = ResourceManager.GetObject("images (2)", resourceCulture);

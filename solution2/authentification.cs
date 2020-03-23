@@ -32,8 +32,8 @@ namespace Winforms
         {
             if (utilisateurDAO.verif(textBox1.Text, textBox2.Text) == true)
             {
-                //FRM_Menu fr = new FRM_Menu();
-                //fr.ShowDialog();
+                FRM_Menu fr = new FRM_Menu();
+                fr.ShowDialog();
                 this.Close();
             }
             else

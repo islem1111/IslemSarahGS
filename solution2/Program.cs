@@ -16,7 +16,7 @@ namespace Winforms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FRM_Menu());
+            Application.Run(new accueil());
         }
     }
 }

@@ -49,5 +49,10 @@ namespace Winforms
             if (comboBox1.Text == "Gestionaire de stock")
             { Pièce_de_rechangeDAO.supprimer(textBox2.Text); }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

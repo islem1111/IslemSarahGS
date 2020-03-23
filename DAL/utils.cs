@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.OleDb ;
+using System.Data.OleDb;
 using System.IO;
 using System.Reflection;
 using System.Configuration;
@@ -12,15 +12,17 @@ namespace DAL
 {
     public static class utils
     {
-         public static OleDbConnection cn;
+        public static OleDbConnection cn;
         public static OleDbCommand cmd;
         public static OleDbDataReader rd;
 
         public static void Connect()
-        {
-            string cnstr = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\WIN10\\source\repos\\solution2\\gestion de Stock.mdb";
+        {    //ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings["Connecter"];
+            //string cnstr = settings.ConnectionString;
+            string cnstr = "Provider = Microsoft.Jet.OLEDB.4.0; Data Source = C:\\Users\\WIN10\\source\repos\\solution2\\solution2\\gestion de Stock.mdb";
             cn = new OleDbConnection(cnstr);
             cn.Open();
+      
         }
 
         public static OleDbDataReader lire(string req)

@@ -147,6 +147,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(100, 70);
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // textBox2
             // 
@@ -260,7 +261,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            //this.BackgroundImage = global::solution2.Properties.Resources.;
+            this.BackgroundImage = global::solution2.Properties.Resources.images_333;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(721, 358);
             this.Controls.Add(this.dateTimePicker1);
