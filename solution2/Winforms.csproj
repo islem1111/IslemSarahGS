@@ -118,11 +118,6 @@
     <Compile Include="FRM_Utilisateur.designer.cs">
       <DependentUpon>FRM_Utilisateur.cs</DependentUpon>
     </Compile>
-    <Compile Include="gestion_de_StockDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>gestion_de_StockDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="inscription.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,17 +175,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="gestion_de_StockDataSet.xsc">
-      <DependentUpon>gestion_de_StockDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="gestion_de_StockDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>gestion_de_StockDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="gestion_de_StockDataSet.xss">
-      <DependentUpon>gestion_de_StockDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -254,9 +238,6 @@
     <None Include="Photos\photos\téléchargement 18.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="gestion de Stock.mdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Include="Photos\photos\images ...jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
