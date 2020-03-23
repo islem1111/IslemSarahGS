@@ -24,3 +24,5 @@ C:\Users\WIN10\source\repos\solution2\solution2\obj\Debug\Winforms.csproj.CopyCo
 C:\Users\WIN10\source\repos\solution2\solution2\obj\Debug\solution2.exe
 C:\Users\WIN10\source\repos\solution2\solution2\obj\Debug\solution2.pdb
 C:\Users\WIN10\source\repos\solution2\solution2\obj\Debug\Winforms.csprojAssemblyReference.cache
+C:\Users\WIN10\source\repos\solution2\solution2\bin\Debug\gestion de Stock.mdb
+C:\Users\WIN10\source\repos\solution2\solution2\obj\Debug\solution2.Consultation.resources
