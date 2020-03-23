@@ -30,7 +30,7 @@ namespace Winforms
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (utilisateurDAO.verif(textBox1.Text, textBox2.Text) == true)
+            if (utilisateurDAO.verif(comboBox1.Text, textBox2.Text) == true)
             {
                 FRM_Menu fr = new FRM_Menu();
                 fr.ShowDialog();
